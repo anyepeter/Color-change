@@ -1,0 +1,41 @@
+:root{
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(56, 57, 58);
+  color: #fff;
+padding: 5rem 10rem;
+text-align: center;
+
+}
+
+h2{
+text-align: center;
+font-size: 72px;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 2rem 0 2rem 25rem;
+}
+
+img{
+  padding: var(--spacing);
+  background: var(--color);
+  filter: blur(var(--blur));
+}
+
